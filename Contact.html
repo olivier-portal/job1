@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <meta name="description" content="Chez BloomPetals, nous croyons que chaque célébration mérite d'être parée de la beauté
+    naturelle des fleurs.">
+    <meta name="geo.region" content="FR">
+    
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <title>Contact</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon Bloompetals.png">
+</head>
+
+<body>
+    <!-- Création du header -->
+    <header>
+        <nav id="HeaderStyle"> 
+            <div id="NavMenu">
+                <a href="/index.html">Home</a>
+                <a href="/entreprise.html">Entreprise</a>
+                <a href="/réalisations.html">Réalisations</a>
+                <a href="/Contact.html">Contact</a>
+            </div>
+            <input type="text" placeholder="" class="InputStyle">
+        </nav>
+    </header>
+
+    <main>
+        
+        <!-- Titre H1 -->
+
+            <h1>Contactez-nous</h1>
+
+        <!-- Image -->
+        <section class="imageContact">
+            <figure class="imageEquipeAlign">
+                <div class="flip-box-contact">
+                    <div class="flip-box-inner">
+                      <div class="flip-box-front">
+                        <img src="images/photos de l_équipe/photo6.jpg" alt="Contactez nous">
+                        </div>
+                        <div class="flip-box-back">
+                            <h2>Envoyer nous des feurs ;&#41;</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac congue turpis,
+                                nec accumsan nibh. Pellentesque vel risus dignissim, pellentesque quam ut,
+                                 fermentum metus. Aliquam varius imperdiet ipsum vel ultricies. Maecenas eu volutpat elit.
+                                  Duis non dui nunc. Suspendisse in tellus nec nunc sollicitudin viverra. Pellentesque habitant</p>
+
+        
+                        </div>
+                    </div>
+                </div>
+            </figure>
+        </section>
+        <section id="ContactForm">
+            <form action="">
+
+                <label for="genderList">Civilité:</label>
+                <input list="genderList" name="genderList" placeholder="Civilité">
+                <datalist id="genderList">
+                    <option value="Mr"></option>
+                    <Option value="Mme"></Option>
+                    <option value="Autre"></option>
+                </datalist>
+            
+
+                <label for="adress">Adresse:</label>
+                <textarea id="adress" name="adress" rows="3" cols="33">Adresse</textarea>
+                
+                <div class="zipCityStyle">
+                    <div class="cityStyle">
+                        <div class="innerZipCodeStyle">
+                            <label for="zipCode">Code postale:</label>
+                            <input type="text" id="zipCode" name="zipCode" placeholder="CP">
+                        </div>
+                        <div class="innerCityStyle">
+                            <label for="fname">Ville:</label>
+                            <input type="text" id="city" name="city" placeholder="Ville">
+                        </div>
+                    </div>
+                </div>
+                
+                <label for="fname">Prénom:</label>
+                <input type="text" id="fname" name="fname" placeholder="Prénom">
+
+                <label for="lname">Nom:</label>
+                <input type="text" id="lname" name="lname" placeholder="Nom de famille">
+
+                <div class="checkboxStyle">
+                    <input type="checkbox" id="checkbox">
+                    <label for="acceptConditions">En cochant cette case, 
+                    J'accepte les conditions générales d'utilisation du site internet
+                    </label>
+                </div>
+
+                <div class="submitButtonStyle">
+                    <input type="submit" value="Envoyer" id="submitButton">
+                </div>
+                
+            </form>
+        </section>   
+
+    </main>
+
+    <footer>
+        <p>Designed by Olivier Portal - 16/10/2024</p>
+
+    </footer>
+    
+</body>
+
+
+
+
+</html>
